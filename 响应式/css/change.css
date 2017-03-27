@@ -26,13 +26,6 @@
 		margin: 8% 0 55% 0;
 		width: 100%;
 	}
-	.column{
-		width: 50%;
-		display: inline-block;
-	}
-	.column:nth-of-type(2){
-		float: left;
-	}
 	.marry-img:before{
 		content: url(../img/onknee-large.jpg);
 	}
@@ -70,7 +63,5 @@
 .nav a{
 	font-size: 0.5rem;
 }
-.nav-zoom{
-	transform: scale(1);
-}
+
 	
