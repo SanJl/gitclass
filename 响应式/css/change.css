@@ -4,41 +4,8 @@
 		margin-bottom: 55%;
 		width: 100%;
 	}
-	.tittle span{
-		font-size: 0.25rem;
-	}
-	.tittle p{
-		font-size: 0.125rem;
-	}
-	.figure h1{
-		font-size: 0.4rem;
-	}
-	.figure h2{
-		font-size: 0.25rem;
-	}
-	.figure p{
-		font-size: 0.18rem;
-	}
 	.marry-img:before{
 		content: url(../img/onknee-small.jpg);
-	}
-	.photo h2{
-		font-size: 0.4rem;
-	}
-	.photo h5{
-		font-size: 0.16rem;
-	}
-	.photo p{
-		font-size: 0.13rem;
-	}
-	.photo a{
-		font-size: 0.17rem;
-	}
-	.nav a{
-		font-size: 0.11rem;
-	}
-	.nav-zoom{
-		transform: scale(0.5);
 	}
 }
 @media only screen and (min-width: 768px) {
@@ -46,38 +13,8 @@
 		margin: 10% 0 55% 0;
 		width: 100%;
 	}
-	.tittle span{
-		font-size: 0.5rem;
-	}
-	.tittle p{
-		font-size: 0.25rem;
-	}
-	.figure h1{
-		font-size: 0.5rem;
-	}
-	.figure h2{
-		font-size: 0.35rem;
-	}
-	.figure p{
-		font-size: 0.19rem;
-	}
 	.marry-img:before{
 		content: url(../img/onknee-medium.jpg);
-	}
-	.photo h2{
-		font-size: 0.5rem;
-	}
-	.photo h5{
-		font-size: 0.18rem;
-	}
-	.photo p{
-		font-size: 0.14rem;
-	}
-	.photo a{
-		font-size: 0.15rem;
-	}
-	.nav a{
-		font-size: 0.13rem;
 	}
 	.nav-zoom{
 		transform: scale(0.8);
@@ -89,21 +26,6 @@
 		margin: 8% 0 55% 0;
 		width: 100%;
 	}
-	.tittle span{
-		font-size: 1rem;
-	}
-	.tittle p{
-		font-size: 0.5rem;
-	}
-	.figure h1{
-		font-size: 0.6rem;
-	}
-	.figure p{
-		font-size: 0.21rem;
-	}
-	.figure h2{
-		font-size: 0.45rem;
-	}
 	.column{
 		width: 50%;
 		display: inline-block;
@@ -114,23 +36,41 @@
 	.marry-img:before{
 		content: url(../img/onknee-large.jpg);
 	}
-	.photo h2{
-		font-size: 0.6rem;
-	}
-	.photo h5{
-		font-size: 0.2rem;
-	}
-	.photo p{
-		font-size: 0.15rem;
-	}
-	.photo a{
-		font-size: 0.13rem;
-	}
-	.nav a{
-		font-size: 0.18rem;
-	}
 	.nav-zoom{
 		transform: scale(1);
-	}
+	}	
+}
+.tittle span{
+	font-size: 2.5rem;
+}
+.tittle p{
+	font-size: 1.5rem;
+}
+.figure h1{
+	font-size: 1.5rem;
+}
+.figure p{
+	font-size: 0.5rem;
+}
+.figure h2{
+	font-size: 0.8rem;
+}
+.photo h2{
+	font-size: 1.5rem;
+}
+.photo h3{
+	font-size: 0.6rem;
+}
+.photo p{
+	font-size: 0.4rem;
+}
+.photo a{
+	font-size: 0.45rem;
+}
+.nav a{
+	font-size: 0.5rem;
+}
+.nav-zoom{
+	transform: scale(1);
 }
 	
