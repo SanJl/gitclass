@@ -1,8 +1,24 @@
 $(function(){
-	var iW = document.getElementsByTagName('html')[0].clientWidth;			
-	var size  =iW/16;
-	var html = document.getElementsByTagName('html')[0];
-	html.style.fontSize = size + 'px';
+    var width = document.querySelector('html').offsetWidth;
+    var delta =  (640-320) / (20-10);
+    var fontSize = (width - 320) / delta + 17;
+    if(width <= 320){
+	fontSize = 10;
+    }else if(width >=1024){
+	fontSize = 40;
+    }
+    document.querySelector('html').style.fontSize = fontSize+'px';
+    window.addEventListener('resize',function(){
+	var width = document.querySelector('html').offsetWidth;
+	var delta =  (640-320) / (20-10);
+	var fontSize = (width - 320) / delta + 17;
+	if(width <= 320){
+	    fontSize = 10;
+	}else if(width >=1024){
+	    fontSize = 40;
+	}
+	document.querySelector('html').style.fontSize = fontSize+'px';
+    })
 	var bg = ['#428BCA','pink','#19C8A9','lightcoral','#D43F3A','#EA5F8D']
 	$('.nav a').click(function(){
 		$('body').stop().animate({
